@@ -1,0 +1,31 @@
+.li{
+display: flex;
+/* justify-content: center; */
+margin-bottom: 20px;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+display: inline;
+
+
+}
+
+.list p {
+
+display: inline-block;
+color:goldenrod;
+font-size:20px;    
+margin-left: 40px;
+letter-spacing: 2px;
+}
+
+.list{
+border-radius: 20px;
+background-color: aqua;
+margin:10px 0px;
+padding-left:10px;
+}

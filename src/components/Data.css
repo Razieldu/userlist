@@ -1,0 +1,161 @@
+.datas {
+  box-shadow: 0px 5px 20px cornflowerblue;
+  width: 500px;
+  min-width: 300px;
+  padding: 10px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  margin: 30px auto 10px;
+
+  padding: 10px 45px 10px 10px;
+  opacity: 0.9;
+}
+
+.show {
+  visibility: hidden;
+}
+
+.userhead {
+  text-align: center;
+  color: pink;
+}
+
+.userhead .s1 {
+  animation-name: color1;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+ 
+}
+
+@keyframes color1 {
+  0% {
+    opacity: 0.8;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.userhead .s2 {
+  animation-name: color2;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+  animation-delay: 0.6s;
+}
+
+@keyframes color2 {
+  0% {
+    opacity: 0.8;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.userhead .s3 {
+  animation-name: color3;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+  animation-delay: 1.2s;
+}
+
+@keyframes color3 {
+  0% {
+    opacity: 0.8;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.userhead .s4 {
+  animation-name: color4;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+  animation-delay: 1.8s;
+}
+
+@keyframes color4 {
+  0% {
+    opacity: 0.8;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.userhead .s5 {
+  animation-name: color5;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+  animation-delay: 2.4s;
+}
+
+@keyframes color5 {
+  0% {
+    opacity: 0.8;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+

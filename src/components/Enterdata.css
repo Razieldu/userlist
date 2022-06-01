@@ -1,0 +1,46 @@
+label{
+font-weight: bold;
+font-family:sans-serif,serif;
+display: block;
+text-align: left;
+color:#FF5D5D;
+}
+
+input{
+text-align: left;
+margin:5px 0 15px;    
+outline-style: none;
+border:0px;
+}
+
+input:focus
+{ 
+outline-color: pink;
+opacity: 0.8;
+
+}
+
+
+
+.form-enter{
+margin: 40px auto 20px auto;
+background-color:cornflowerblue;
+box-shadow: 0px 0px 20px cornflowerblue;
+width:500px;
+min-width: 300px;
+border-radius: 25px;
+padding:15px;
+opacity: 0.9;
+}
+
+
+
+.form-enter-first{
+    padding:20px;
+     margin:5px;
+    border-radius: 25px;
+    background-color: cyan;
+    /* background-color:transparent; */
+}
+
+

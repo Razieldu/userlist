@@ -1,0 +1,20 @@
+button{
+    position: relative;
+    font-weight: normal;
+    font-family:sans-serif,serif;
+    display: block;
+    border-style:solid;
+    border-color: aqua;
+    border-radius: 5px;
+    background-color:  cornflowerblue;
+    padding:7px;
+    margin-top: 15px;
+    color:white;
+    
+}
+
+button:hover{
+color:yellow;
+opacity: 0.7;
+transform: scale(1.2);
+}
