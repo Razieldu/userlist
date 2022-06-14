@@ -4,11 +4,14 @@
 
 html {
   font-family: sans-serif;
+  
 }
 
 body {
   margin: 0;
   background-color:#0c192c;
+ 
+
 }
 
 
@@ -16,7 +19,7 @@ body {
   position: relative;
   overflow:hidden;  
   width:100%;
-  height:100vh; 
+  /* height:100vh;  */
   }
   
   .bubbles{
@@ -38,7 +41,7 @@ body {
   0 0 50px #4fc3dc,
   0 0 100px #4fc3dc;
   animation : animate 15s linear infinite;
-  animation-duration:calc(125s / var(--i))
+  animation-duration:calc(180s / var(--i))
   }
 
 .bubbles span:nth-child(even){
@@ -54,11 +57,11 @@ body {
 
 0%{
 
-transform: translateY(100vh) scale(0);
+transform: translateY(100rem) scale(0);
 }
 100%{
 
-transform: translateY(-20vh) scale(1);
+transform: translateY(-20rem) scale(1);
 
 }
 

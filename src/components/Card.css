@@ -1,17 +1,16 @@
-.li{
+ /* .li{
 display: flex;
-/* justify-content: center; */
-margin-bottom: 20px;
-}
+ justify-content: center; 
+ margin-bottom: 10px; 
+}  */
 
 ul{
 list-style: none;
+
 }
 
 li{
 display: inline;
-
-
 }
 
 .list p {
@@ -28,4 +27,5 @@ border-radius: 20px;
 background-color: aqua;
 margin:10px 0px;
 padding-left:10px;
+
 }
